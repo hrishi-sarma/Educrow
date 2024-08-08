@@ -1,3 +1,3 @@
 # Educrow 
 
-education crow, padhai crow
+Educate crow, Padhai crow
