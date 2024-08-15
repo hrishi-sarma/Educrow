@@ -1,9 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-function App() {
+import './explore.css'
+
+function explore() {
   const [count, setCount] = useState(0)
 
   return (
@@ -13,7 +12,7 @@ function App() {
           <img src="src/assets/educrow1.png" alt="" />
         </div>
         <ul>
-          <li><a href="src/explore.jsx">Explore</a></li>
+          <li><a href="teams2.html">Explore</a></li>
           <li><a href="#skill-bg">Progress</a></li>
           <li><a href="project.html">More</a></li>
         </ul>
@@ -24,24 +23,10 @@ function App() {
       </div>
 
 
-      <div class="title-container">
-
-        <div class="overlay">
-          <div class="title">
-              <h1>
-                Educrow  
-              </h1>
-
-              { <p>
-                (Educate karo)
-              </p> }
-          </div>
-
-        </div>
+      
 
 
-      </div>
-      <div className="search-bar-container">
+    <div className="search-bar-container">
           <input type="text" placeholder="What would you like to learn today?" className="search-bar" />
       </div>
 
@@ -73,22 +58,10 @@ function App() {
         </div>
       </div>
 
-      <div class="resumeContainer">
-        <div className="resumecard">
-            
-            <div className="resumecard-content">
-              
-              <h2>Python</h2>
-              <p>Pick up where you left off...</p>
-              <progress></progress>
-              <button>Continue</button>
-              
-            </div>
-          </div>
-      </div>
+      
 
     </>
   )
 }
 
-export default App
+export default explore
