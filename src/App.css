@@ -114,13 +114,15 @@ body {
 }
 
 .card {
-  background-color: #3f3f3f;
+  background-color: #1d2128;
   border-radius: 10px;
   overflow: hidden;
   width: 30%;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
+  padding: 10px;
+  margin: 10px;
   
 }
 
