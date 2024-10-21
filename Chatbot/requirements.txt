@@ -1,0 +1,7 @@
+pyPDF
+langchain
+g4f[all] 
+streamlit
+pyPDF2
+openai
+sentence-transformers
