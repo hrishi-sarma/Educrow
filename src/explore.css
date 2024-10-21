@@ -1,254 +1,238 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: gilroy;
-    color: aliceblue;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-    background-color: #000000;
-  }
-  
-  
-  
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
-    padding: 0 30px;
-    height: 60px;
-  }
-  
-  .navbar .logo {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-  }
-  
-  .navbar ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-  }
-  
-  .navbar a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 15px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-  }
-  
-  .navbar a:hover {
-    background-color: hsl(0, 0%, 100%);
-    color: rgb(0, 0, 0);
-  } 
-  
-  .logo img {
-  
-    height: 12%;
-    width: 12%;
-    position: relative;
-    display: flex;
-  
-  
-  
-  }
-  .title {
-    text-align: center;
-    
-    
-  }
-  
-  .line {
-    border-width: 10px;
-    border-color: white;
-  }
-  
-  .title h1{
-    padding-top: 30px;
-    color: #ffffff;
-    padding-bottom: 0px;
-    font-family: 'Courier New', Courier, monospace;
-    text-shadow: #000000;
-    -webkit-text-stroke: #000000;
-    -webkit-text-stroke-width: 1.5px;
-  }
-  
-  
-  .title p {
-    padding-top: 0px;
-    font-style: italic;
-    font-size: 20px;
-    padding-bottom: 20px;
-    color:#ffffff;
-    font-weight: 1000;
-    -webkit-text-stroke: #000;
-  }
-  
-  
-  .title-container {
-    height: 100%;
-    width: 100%;
-    background-image: url("src/assets/bgDoodle.jpeg");
-    align-items: center;
-  }
-  
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .cards-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 40px 0;
-    padding: 0 30px;
-  }
-  
-  .card {
-    background-color: #3f3f3f;
-    border-radius: 10px;
-    overflow: hidden;
-    width: 30%;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-    
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-  }
-  
-  .card img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .card-content {
-    padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .card h2 {
-    margin: 10px 0;
-    font-size: 24px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .card p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .card button {
-    background-color: #000;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .card button:hover {
-    background-color: #ffffff;
-    color: #000000;
-  }
-  
-  
-  .search-bar-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
-  
-  .search-bar {
-    width: 50%;
-    padding: 10px;
-    border-radius: 25px;
-    border: 1px solid #ffffff;
-    font-size: 16px;
-    outline: none;
-    transition: box-shadow 0.3s;
-    font-family: 'Courier New', Courier, monospace;
-    padding-inline: 30px;
-    
-  }
-  
-  .search-bar:focus {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  
-  .resumeContainer {
-    display: flex;
-    justify-content: center;
-    background-color: #000;
-    padding: 50px 30px;
-    margin-bottom: 100px;
-  }
-  
-  .resumeCard {
-    background-color: #000000;
-    border-radius: 10px;
-    overflow: hidden;
-    width: 30%;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-    
-  }
-  
-  .resumecard-content {
-    justify-content: space-between;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #000;
-  }
-  
-  .resumecard-content progress{
-     padding-left: 390px;
-     
-  }
-  
-  .resumecard-content button{
-    margin-left: 15px;
-    background-color: #000;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .resumecard-content button:hover{
-    background-color: #ffffff;
-    color: #000000;
-  }
-  
-  .resumecard p{
-  
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .resumecard h2{
-    margin: 10px 0;
-    font-size: 30px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: aliceblue;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding: 0 30px;
+  height: 60px;
+}
+
+.navbar .logo {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: rgb(0, 0, 0);
+}
+
+.logo img {
+  height: 12%;
+  width: 12%;
+  display: flex;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.title h1 {
+  padding-top: 30px;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke: #000000;
+}
+
+.title p {
+  font-style: italic;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 1000;
+  -webkit-text-stroke: #000;
+}
+
+.title-container {
+  width: 100%;
+  background-image: url("src/assets/bgDoodle.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+/* Search Bar */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  outline: none;
+  transition: box-shadow 0.3s, border 0.3s;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.search-bar:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  border: 1px solid #ffffff;
+}
+
+/* Cards Container */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 0 30px;
+}
+
+.card {
+  background-color: #3f3f3f;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: white;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.card button {
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Resume Container */
+.resumeContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  padding: 50px 30px;
+}
+
+.resumeCard {
+  background-color: #000000;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.resumecard-content {
+  justify-content: space-between;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000;
+  padding: 20px;
+}
+
+.resumecard-content progress {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.resumecard-content button {
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.resumecard-content button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.resumecard p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.resumecard h2 {
+  margin: 10px 0;
+  font-size: 30px;
+  color: white;
+}

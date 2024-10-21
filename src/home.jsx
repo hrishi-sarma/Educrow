@@ -15,7 +15,7 @@ function Home() {
           <img src="src/assets/educrow1.png" alt="" />
         </div>
         <ul >
-          <li><button className='navbuttons' onClick={() => navigate('/')}>Explore</button></li>
+          <li><button className='navbuttons' onClick={() => navigate('/explore')}>Explore</button></li>
           <li><button className='navbuttons' onClick={() => navigate('/progress')}>Progress</button></li>
           <li><button className='navbuttons' onClick={() => navigate('/more')}>More</button></li>
         </ul>
