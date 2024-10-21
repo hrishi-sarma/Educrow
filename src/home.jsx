@@ -68,7 +68,7 @@ function Home() {
           <div className="resumecard-content">
             <h2>Python</h2>
             <p>Pick up where you left off...</p>
-            <progress></progress>
+         
             <button>Continue</button>
           </div>
         </div>
