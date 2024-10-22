@@ -11,9 +11,9 @@ function Explore() {
           <img src="src/assets/educrow1.png" alt="Logo" />
         </div>
         <ul>
-          <li><a href="teams2.html">Explore</a></li>
-          <li><a href="#skill-bg">Progress</a></li>
-          <li><a href="project.html">More</a></li>
+        <li><button className='navbuttons' onClick={() => navigate('/explore')}>Explore</button></li>
+          <li><button className='navbuttons' onClick={() => navigate('/progress')}>Progress</button></li>
+          <li><button className='navbuttons' onClick={() => navigate('/more')}>More</button></li>
         </ul>
       </nav>
 

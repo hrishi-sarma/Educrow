@@ -23,7 +23,7 @@ function Home() {
 
       <div className="line"></div>
 
-      <div className="title-container">
+      <div className="titlecontainer">
         <div className="overlay">
           <div className="title">
             <h1>Educrow</h1>

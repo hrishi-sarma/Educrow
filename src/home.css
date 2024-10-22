@@ -95,16 +95,7 @@
   }
   
   
-  .title-container {
-    height: 100%;
-    width: 100%;
-    background-image: url("src/assets/bgDoodle.jpeg");
-    align-items: center;
-  }
-  
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+
   
   .cards-container {
     display: flex;

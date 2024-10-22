@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Signup from './signup'; 
+import Signup from './signup';
 import Home from './home'; 
 import Explore from './explore';
-import Course from './course';
+
 
 function App() {
   return (
@@ -16,7 +16,6 @@ function App() {
 
         <Route path='/explore' element={<Explore />} />
 
-        <Route path='/course' element={<Course />} />
         
 
       </Routes>
