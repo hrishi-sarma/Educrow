@@ -31,9 +31,9 @@ function Home() {
         </div>
       </div>
 
-      <div className="search-bar-container">
+      {/* <div className="search-bar-container">
         <input type="text" placeholder="What would you like to learn today?" className="search-bar" />
-      </div>
+      </div> */}
 
       <div className="cards-container">
         <div className="card">
@@ -41,7 +41,7 @@ function Home() {
           <div className="card-content">
             <h2>Java Basics</h2>
             <p>Learn the basics of java with this interactive course.</p>
-            <button>Learn More</button>
+            <button onClick={() => navigate('/contentjava')}>Learn More</button>
           </div>
         </div>
         <div className="card">
@@ -49,7 +49,7 @@ function Home() {
           <div className="card-content">
             <h2>C++</h2>
             <p>Dive into the world of C++ with this beginner-friendly course.</p>
-            <button>Learn More</button>
+            <button onClick={() => navigate('/contentcpp')}>Learn More</button>
           </div>
         </div>
         <div className="card">
