@@ -27,7 +27,7 @@ index = VectorstoreIndexCreator(
 ).from_loaders(loaders)
 
 # Setup the app title
-st.image("PolicyBazaar.png",width=120,)
+# st.image("PolicyBazaar.png",width=120,)
 st.title('Let AI help you with different policies')
 # Initialize the session state
 if 'messages' not in st.session_state:
