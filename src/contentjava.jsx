@@ -26,7 +26,7 @@ const Content = () => {
             </div>
             <ul >
               <li><button className='navbuttons' onClick={() => navigate('/explore')}>Explore</button></li>
-              <li><button className='navbuttons' onClick={() => window.location.href = 'https://www.youtube.com'}>More</button></li>
+              <li><button className='navbuttons' onClick={() => window.location.href = 'https://www.youtube.com'}>More</button></li> // add link to chatbot here
             </ul>
           </nav>
 
