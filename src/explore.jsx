@@ -1,18 +1,19 @@
 import { useState } from 'react'
 import './explore.css'
+import { useNavigate } from 'react-router-dom';
 
 function Explore() {
   const [count, setCount] = useState(0)
-
+  const navigate = useNavigate();
   return (
     <>
       <nav className="navbar">
-        <div className="logo">
-          <img src="src/assets/educrow1.png" alt="Logo" />
+        <div className="logo" onClick={() => navigate('/home')}>
+          <img src="src/assets/educrow1.png" alt="" />
         </div>
-        <ul>
-        <li><button className='navbuttons' onClick={() => navigate('/explore')}>Explore</button></li>
-          <li><button className='navbuttons' onClick={() => navigate('/progress')}>Progress</button></li>
+        <ul >
+          <li><button className='navbuttons' onClick={() => navigate('/explore')}>Explore</button></li>
+          <li><button className='navbuttons' onClick={() => navigate('/content')}>Content</button></li>
           <li><button className='navbuttons' onClick={() => navigate('/more')}>More</button></li>
         </ul>
       </nav>
