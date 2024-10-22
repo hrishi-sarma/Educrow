@@ -13,7 +13,6 @@ function Explore() {
         </div>
         <ul >
           <li><button className='navbuttons' onClick={() => navigate('/explore')}>Explore</button></li>
-          <li><button className='navbuttons' onClick={() => navigate('/content')}>Content</button></li>
           <li><button className='navbuttons' onClick={() => navigate('/more')}>More</button></li>
         </ul>
       </nav>
@@ -60,9 +59,9 @@ function Explore() {
         <div className="card">
           <img src="src/assets/c++.jpeg" alt="Card 5" />
           <div className="card-content">
-            <h2>Data Structures in C++</h2>
-            <p>Master data structures and algorithms using C++.</p>
-            <button>Learn More</button>
+            <h2>Basics of C</h2>
+            <p>Master C language with this awesome course.</p>
+            <button onClick={() => navigate('/contentc')}>Learn More</button>
           </div>
         </div>
         <div className="card">

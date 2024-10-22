@@ -16,7 +16,6 @@ function Home() {
         </div>
         <ul >
           <li><button className='navbuttons' onClick={() => navigate('/explore')}>Explore</button></li>
-          <li><button className='navbuttons' onClick={() => navigate('/content')}>Content</button></li>
           <li><button className='navbuttons' onClick={() => navigate('/more')}>More</button></li>
         </ul>
       </nav>
