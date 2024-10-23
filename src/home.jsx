@@ -16,7 +16,8 @@ function Home() {
         </div>
         <ul >
           <li><button className='navbuttons' onClick={() => navigate('/explore')}>Explore</button></li>
-          <li><button className='navbuttons' onClick={() => navigate('/more')}>More</button></li>
+          <li><button className='navbuttons' onClick={() => window.location.href = 'https://www.youtube.com'}>More</button></li> // add link to chatbot here
+          <li><button className='navbuttons' onClick={() => navigate('/')}>Logout</button></li>
         </ul>
       </nav>
 
